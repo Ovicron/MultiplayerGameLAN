@@ -11,7 +11,7 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
 
 def redraw_window(win, player, player2):
-    WIN.fill((255, 255, 255))
+    WIN.fill((254, 254, 254))
     player.draw(win)
     player2.draw(win)
     pygame.display.update()
